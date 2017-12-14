@@ -1,0 +1,109 @@
+.login-container {
+    position: relative;
+    min-height: 100vh;
+    background: url('../assets/onboarding-bg.png');
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    text-decoration: none;    
+    color: white;
+}
+
+.logo {
+    font-weight: 700;    
+    font-size: 18px;    
+    top: 2.5%;
+    left: 7%;
+    letter-spacing: .7px;    
+}
+
+/******************************************** TOP LEVEL CENTER CONTAINER **************************************/
+/******************************************** TOP LEVEL CENTER CONTAINER **************************************/
+/******************************************** TOP LEVEL CENTER CONTAINER **************************************/
+/******************************************** TOP LEVEL CENTER CONTAINER **************************************/
+
+
+.credential-field {
+    position: relative;
+    top: 25vh;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* LOGIN/ SIGN UP BUTTONS */
+.toggle-login { 
+    margin: 0em 0em 2em .5em;    
+}
+
+.toggle-login a {
+    text-decoration: none;    
+    margin-right: 2em;
+    color:rgba(255,255,255,.5);    
+}
+.toggle-login a.active {
+    color:rgba(255,255,255,1);    
+    text-decoration: underline;
+}
+
+/******************************************** USER FIELDS **************************************/
+/******************************************** USER FIELDS **************************************/
+/******************************************** USER FIELDS **************************************/
+/******************************************** USER FIELDS **************************************/
+/******************************************** USER FIELDS **************************************/
+
+/* TYPED FONT COLOR */
+.credential-field input[type=text], button{ 
+    color: white;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 50px;
+    border: 0px;    
+    padding: 1.25em;
+    
+}
+
+.credential-field input[type=text] {
+    padding-left: 40px;
+    width: 78.5%;
+}
+
+/* PLACEHOLDER FONT COLOR */
+.credential-field input::-webkit-input-placeholder {
+    color:rgba(255,255,255,.5);
+}
+
+button{
+    background: #e43c4b;
+    color: white;
+}
+
+/* CLEAR FOCUS OUTLINE */
+button:focus,
+.credential-field input[type=text]:focus {
+    outline-width: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.username { 
+    background: url('../assets/ic-username.png') no-repeat scroll rgba(0,0,0,.1);
+    background-size: 25px;
+    background-position: 5px;
+}
+
+.password{ 
+    background: url('../assets/ic-password.png') no-repeat scroll rgba(0,0,0,.1);
+    background-size: 25px;
+    background-position: 5px;
+}
+
+.email{ 
+    background: url('../assets/ic-email.png') no-repeat scroll rgba(0,0,0,.1);
+    background-size: 25px;
+    background-position: 5px;
+}
