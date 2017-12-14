@@ -1,4 +1,5 @@
 import React from 'react';
+import NewsletterPanel from '../components/NewsletterPanel';
 import '../styles/Home.css';
 
 export default () => (
@@ -66,13 +67,7 @@ export default () => (
         </div>
       </div>
     </div>
-    <div className="section-newsletter">
-      <h2>SUBSCRIBE TO NEWSLETTER</h2>
-      <form action="">
-        <input type="text" name="email" placeholder="Your Email"/>
-        <input type="submit" value="Subscribe"/>
-      </form>
-    </div>
+    <NewsletterPanel/>
     <div className="section-footer"><p>Footer</p></div>
   </div>
 );
