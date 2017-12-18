@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
 
-
 export default class NewsletterPanel extends React.Component {
   constructor(props) {
     super(props);

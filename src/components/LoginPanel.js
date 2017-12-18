@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Login.css';
 
-
 export default class LoginPanel extends React.Component {
   constructor(props) {
     super(props);
@@ -25,7 +24,7 @@ export default class LoginPanel extends React.Component {
           </div>
           <div className="sign-up-form">
             <form onSubmit={this.makeLoginRequest} >
-              <input className="username" ref="loginemail"type="text" name="email" placeholder="Email"/>
+              <input className="email" ref="loginemail"type="text" name="email" placeholder="Email"/>
               <input className="password" ref="loginpass" type="text" name="password" placeholder="Password"/>
               <button type="submit" value={this.buttonMessage} >LOG IN</button>
             </form>
